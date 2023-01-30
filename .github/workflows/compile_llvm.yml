@@ -27,7 +27,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/SkyFaklist/android_kernel_xiaomi_sm8150.git
+  REPO_URL: https://github.com/QPLAYid/Aghisna_Sweet_Kernel
   REPO_BRANCH: miui
   CONFIG_FILE: .config
   EXTERNAL_URL: https://github.com/SkyFaklist/Unversial_AndroidKernel_Builder.git
@@ -36,7 +36,7 @@ env:
   ARCH: arm64
   SUBARCH: arm64
   DEVICE: cepheus
-  DEVICE_FULL: cepheus_defconfig
+  DEVICE_FULL: sweet_defconfig
   USE_CCACHE: 1
   CCACHE_DIR: ~/.ccache
   BUILDER: /workdir/tc-build/install/bin/
