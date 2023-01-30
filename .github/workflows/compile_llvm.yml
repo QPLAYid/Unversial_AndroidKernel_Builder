@@ -28,7 +28,7 @@ on:
 
 env:
   REPO_URL: https://github.com/QPLAYid/Aghisna_Sweet_Kernel
-  REPO_BRANCH: miui
+  REPO_BRANCH: aghisna-13
   CONFIG_FILE: .config
   EXTERNAL_URL: https://github.com/SkyFaklist/Unversial_AndroidKernel_Builder.git
   ANYKERNEL_URL: https://github.com/osm0sis/AnyKernel3.git 
