@@ -29,12 +29,12 @@ on:
 env:
   UPLOAD_BIN_DIR: true
   UPLOAD_RELEASE: true
-  REPO_URL: https://github.com/RooGhz720/Aghisna_Sweet_Kernel.git
+  REPO_URL: https://github.com/QPLAYid/Aghisna_Sweet_Kernel.git
   REPO_BRANCH: aghisna-13
-  COMPER_URL: https://github.com/kdrag0n/proton-clang.git
+  COMPER_URL: https://github.com/QPLAYid/proton-clang.git
   CONFIG_FILE: .config
   EXTERNAL_URL: https://github.com/QPLAYid/Unversial_AndroidKernel_Builder.git
-  ANYKERNEL_URL: https://github.com/osm0sis/AnyKernel3.git 
+  ANYKERNEL_URL: https://github.com/QPLAYid/AnyKernel3-1.git 
   TZ: Asia/Shanghai
   ARCH: arm64
   SUBARCH: arm64
