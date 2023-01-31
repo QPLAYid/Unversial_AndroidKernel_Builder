@@ -39,7 +39,7 @@ env:
   ARCH: arm64
   SUBARCH: arm64
   DEVICE: sweet
-  DEVICE_FULL: sweet_user_defconfig
+  DEVICE_FULL: cuttlefish_defconfig
   USE_CCACHE: 1
   CCACHE_DIR: ~/.ccache
   BUILDER: /workdir/toolchain/bin/
