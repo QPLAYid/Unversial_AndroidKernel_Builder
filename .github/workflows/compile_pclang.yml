@@ -113,6 +113,7 @@ jobs:
       run: |
         chmod +x ./compile.sh
         bash ./compile.sh
+        cd /workdir/kernel/out/arch/arm64/boot/
         
     - name: Pack Kernel
       working-directory: /workdir
