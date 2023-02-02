@@ -27,16 +27,16 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/QPLAYid/Aghisna_Sweet_Kernel
+  REPO_URL: https://github.com/QPLAYid/Aghisna_Sweet_Kernel.git
   REPO_BRANCH: aghisna-13
   CONFIG_FILE: .config
-  EXTERNAL_URL: https://github.com/SkyFaklist/Unversial_AndroidKernel_Builder.git
-  ANYKERNEL_URL: https://github.com/osm0sis/AnyKernel3.git 
+  EXTERNAL_URL: https://github.com/QPLAYid/Unversial_AndroidKernel_Builder.git
+  ANYKERNEL_URL: https://github.com/QPLAYid/AnyKernel3-1.git 
   TZ: Asia/Shanghai
   ARCH: arm64
   SUBARCH: arm64
-  DEVICE: cepheus
-  DEVICE_FULL: sweet_defconfig
+  DEVICE: sweet
+  DEVICE_FULL: sweet_user_defconfig
   USE_CCACHE: 1
   CCACHE_DIR: ~/.ccache
   BUILDER: /workdir/tc-build/install/bin/
